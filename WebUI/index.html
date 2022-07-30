@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Inicio</title>
+        <link rel="stylesheet" href="vendors/ti-icons/css/themify-icons.css">
+        <link rel="stylesheet" href="vendors/base/vendor.bundle.base.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="https://www.bumeran.com.pe/candidate/static/media/bumeran.296e6bc2.svg" />
+    </head>
+    <body>
+        <div id="app">
+            <div class="container-scroller">
+                <navbar></navbar>
+                <div class="container-fluid page-body-wrapper">
+                    <sidebar></sidebar>
+                    <div class="main-panel">
+                        <div class="content-wrapper">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="card-title">Inicio</h4>
+
+                                    <h3>{{nombre}}</h3>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+        <script src="vendors/base/vendor.bundle.base.js"></script>
+        <script src="js/off-canvas.js"></script>
+        <script src="js/hoverable-collapse.js"></script>
+        <script src="js/template.js"></script>
+        <script src="js/todolist.js"></script>
+        <script src="js/dashboard.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="js/componentes/script.js" type="text/javascript"></script>
+    </body>
+
+    <script>
+new Vue({
+    el: "#app",
+    data: {
+        nombre: 'Inicio'
+    }
+});
+
+    </script>
+</html>
+
